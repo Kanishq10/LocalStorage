@@ -1,33 +1,52 @@
 # LocalStorage
 
-Source code and project resources for LocalStorage.
+**Portfolio project** · A browser application exploring persistent state with the Web Storage API.
 
 ## Overview
 
-This repository contains the source code and resources for **LocalStorage**.
+A browser application exploring persistent state with the Web Storage API.
 
-## Technologies
+## Technology Stack
 
-- CSS
-- HTML
-- JavaScript
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-## Getting Started
+## How the Repository Works
 
-```bash
-git clone https://github.com/Kanishq10/LocalStorage.git
-cd LocalStorage
+```mermaid
+flowchart LR
+    N0["User interaction<br/> DOM or React event"]
+    N1["State update<br/> Client-side logic"]
+    N0 --> N1
+    N2["View update<br/> Render the new result"]
+    N1 --> N2
 ```
 
-Review the project files and configuration to install dependencies and start the application.
+| Stage | Responsibility |
+|---|---|
+| **User interaction** | DOM or React event |
+| **State update** | Client-side logic |
+| **View update** | Render the new result |
 
-## Repository Contents
+## Concepts Covered
 
-- `README.md`
+- Project structure
+- Core implementation
+- Practical debugging
+- Version control
+- Incremental experimentation
+
+## Repository Map
+
 - `app.css`
 - `app.js`
 - `index.html`
 
-## Contributing
+## Recruiter Summary
 
-Contributions are welcome. Fork the repository, create a feature branch, and open a pull request.
+This repository demonstrates practical implementation skills, repository organization, and an end-to-end understanding of the project workflow. It is suitable as a focused example of applied software or data work.
+
+---
+
+<sub>Documentation is concise and project-focused; source code was not modified.</sub>
